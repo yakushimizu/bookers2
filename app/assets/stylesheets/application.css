@@ -14,11 +14,10 @@
  *= require_self
  */
 
-#notice {
-    color: green;
-}
-
-.field,
 .actions {
     margin-bottom: 10px;
+}
+
+#notice {
+    color: green;
 }
