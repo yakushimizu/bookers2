@@ -23,12 +23,12 @@
     <%= form_with model: book, local:true do |f| %>
     <div class="form-group">
       <label>Title</br>
-        <%= f.text_field :title %>
+        <%= f.text_field :title, class: "form-control book_title" %>
       </label>
     </div>
     <div class="form-group">
       <label>Opinion</br>
-        <%= f.text_field :body %>
+        <%= f.text_field :body, class: "form-control book_body" %>
       </label>
     </div>
     <div class="form-group">
